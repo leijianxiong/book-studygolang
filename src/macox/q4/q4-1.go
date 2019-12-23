@@ -7,6 +7,9 @@ import (
 	"time"
 )
 
+/*
+编写计算一个类型是 float64 的 slice 的平均值的代码。在稍候的练习 Q5 中 将会改写为函数
+ */
 func main()  {
 	rand.Seed(time.Now().UnixNano())
 	//生成1到10随机数
